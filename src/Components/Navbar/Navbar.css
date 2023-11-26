@@ -1,0 +1,51 @@
+.dot {
+  color: #4ca666;
+}
+.main-logo {
+  display: inline-block;
+  height: 48px;
+  width: auto;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  width: 30rem;
+  position: fixed;
+  justify-content: space-between;
+  left: 35%;
+  right: 0;
+  border-radius: 0.5rem;
+  border: 2px solid #1d1d1d;
+  height: auto;
+  align-items: center;
+  padding: 1px;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 25px 8px;
+  align-items: center;
+}
+
+.nav-item {
+  height: 48px;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 48px;
+  padding: 0 12px 0;
+}
+
+.nav-item:hover {
+  background-color: #1d1d1d;
+  border-radius: 0.5rem;
+}
