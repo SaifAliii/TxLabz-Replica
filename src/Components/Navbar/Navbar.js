@@ -1,12 +1,11 @@
 import "../Navbar/Navbar.css";
-import logo from "../../logo.png";
 function Navbar() {
   return (
     <div className="nav-bar-container">
       <a href="#" className="main-logo">
         TXLABZ
       </a>
-      <nav className="nav-bar">
+      <nav className="nav-bar" id="nav-bar">
         <a href="#" className="nav-item">
           Portfolio
         </a>
@@ -19,8 +18,16 @@ function Navbar() {
         <a href="#" className="nav-item">
           Cases
         </a>
+        <a href="#" className="nav-item-unique nav-hire-us-link">
+          <i class="dot fa-solid fa-circle fa-2xs"></i> Hire us
+        </a>
       </nav>
-      <i class="dot fa-solid fa-circle"></i>
+      <div className="hire-us">
+        <i class="dot fa-solid fa-circle fa-2xs"></i>
+        <a href="#" className="hire-us-link">
+          Hire us
+        </a>
+      </div>
     </div>
   );
 }
