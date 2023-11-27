@@ -1,5 +1,10 @@
 import "./Home.css";
 import userImg from "../../user.jpg";
+import agioweb from "../../agioweb.png";
+import fiveFour from "../../5four.png";
+import ww from "../../ww..png";
+import zereflab from "../../zereflab.png";
+import heymara from "../../heymara.png";
 function Home() {
   return (
     <div className="home">
@@ -36,7 +41,21 @@ function Home() {
           <p>TRUSTED BY GLOABL ENTERPRISES AND STARTUPS</p>
         </div>
         <div className="trusted-by-organizations">
-          <img></img>
+          <a href="#" className="agioweb project">
+            <img src={agioweb} />
+          </a>
+          <a href="#" className="five-four project">
+            <img src={fiveFour} />
+          </a>
+          <a href="#" className="ww-dot project">
+            <img src={ww} />
+          </a>
+          <a href="#" className="zereflab project">
+            <img src={zereflab} />
+          </a>
+          <a href="#" className="heymara project">
+            <img src={heymara} />
+          </a>
         </div>
       </div>
     </div>

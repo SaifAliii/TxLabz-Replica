@@ -1,5 +1,13 @@
+.agioweb img {
+  height: 40px !important;
+}
+
 .fa-arrow-right {
   color: white;
+}
+
+.five-four img {
+  height: 50px !important;
 }
 
 h1 {
@@ -9,7 +17,7 @@ h1 {
 
 .home {
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,6 +30,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 110vh;
+  padding-bottom: 50px;
 }
 
 .home-projects {
@@ -50,6 +60,10 @@ h1 {
   font-size: 18px;
 }
 
+.project img {
+  height: 32px;
+}
+
 .project-link {
   text-decoration: none;
   color: #4ca666;
@@ -74,6 +88,21 @@ h1 {
     rgba(167, 253, 255, 1) 100%
   );
   box-shadow: 0px 0px 120px 8px rgba(0, 212, 255, 1);
+}
+
+.trusted-by {
+  width: 90%;
+}
+
+.trusted-by-organizations {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.trusted-by-text p {
+  padding-bottom: 30px;
+  font-size: 20px;
 }
 
 .user {
