@@ -2,14 +2,41 @@
   color: white;
 }
 
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .home {
   width: 100%;
   height: 100vh;
-  align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  flex-direction: column;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-projects {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  bottom: 10px;
+}
+
+.home-projects-main {
+  display: flex;
+  padding-top: 40px;
+  height: 100px;
+  width: 400px;
+  justify-content: space-around;
 }
 
 .home-heading {
@@ -21,6 +48,11 @@
 .home-explanation {
   font-weight: 400;
   font-size: 18px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #4ca666;
 }
 
 .talk {
@@ -48,10 +80,27 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  position: absolute;
 }
+
+.users {
+  display: flex;
+}
+
+.user:hover {
+  border: 3px solid black;
+  z-index: 5;
+}
+
 .user-1 {
-  margin-left: 10px;
+  margin-left: -60px;
 }
 
 .user-2 {
+  margin-left: -20px;
+  z-index: 4;
+}
+
+.user-3 {
+  margin-left: 20px;
 }

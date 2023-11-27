@@ -15,14 +15,29 @@ function Home() {
         <button className="talk">
           Let's talk <i class="fa-solid fa-arrow-right"></i>
         </button>
-        <span>
-          <div>
+        <div className="home-projects-main">
+          <div className="users">
             <img className="user user-1" src={userImg} alt="user logo" />
             <img className="user user-2" src={userImg} alt="user logo" />
             <img className="user user-3" src={userImg} alt="user logo" />
           </div>
-        </span>
-        <span>200+ successful projects</span>
+          <div className="home-projects">
+            <div className="home-projects-info">200+ successful projects</div>
+            <div className="home-projects-link">
+              <a href="#" className="project-link">
+                Read testimonials &gt;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="trusted-by">
+        <div className="trusted-by-text">
+          <p>TRUSTED BY GLOABL ENTERPRISES AND STARTUPS</p>
+        </div>
+        <div className="trusted-by-organizations">
+          <img></img>
+        </div>
       </div>
     </div>
   );
