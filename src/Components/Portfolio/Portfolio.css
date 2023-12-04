@@ -1,7 +1,13 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .portfolio-heading h3 {
@@ -24,7 +30,7 @@
 }
 
 .portfolio-image:hover {
-  animation: scrollAnimation 50s linear;
+  animation: scrollAnimation 150s linear;
 }
 
 .portfolio-main::before {
@@ -44,33 +50,40 @@
 }
 
 .portfolio-projects {
-  height: 300px;
-  width: 500px;
-  overflow: scroll;
+  height: 250px;
+  width: 400px;
+  overflow: hidden;
   border-radius: 0.5rem;
 }
 
 .portfolio-projects:hover {
   animation: imageAnimation;
-  animation-duration: 0.4s;
+  animation-duration: 0.2s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
+  border-radius: 0.5rem;
 }
 
 .portfolio-projects:hover ~ div {
-  z-index: 1;
-}
-
-.portfolio-projects-row1 {
-  display: flex;
-  width: 125%;
-  justify-content: space-between;
-  margin-left: -60px;
-  overflow-y: hidden;
+  z-index: 2;
 }
 
 .portfolio-projects::-webkit-scrollbar {
   display: none;
+}
+
+.portfolio-projects-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-projects-row1 {
+  padding-top: 80px;
+  display: flex;
+  width: 115%;
+  justify-content: space-between;
+  margin-left: -80px;
+  overflow: hidden;
 }
 
 .portfolio-view-project {
@@ -83,9 +96,15 @@
   line-height: 30px;
   align-items: center;
   position: absolute;
-  translate: 190px -190px;
+  translate: 150px -190px;
   border-radius: 0.4rem;
   z-index: -1;
+  overflow: hidden;
+}
+
+.portfolio-view-project:hover {
+  z-index: 2;
+  animation: scrollAnimation 150s linear;
 }
 
 @keyframes imageAnimation {
@@ -93,7 +112,7 @@
     translate: 0px 0px;
   }
   to {
-    translate: 0px -10px;
+    translate: 0px -20px;
   }
 }
 

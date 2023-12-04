@@ -1,5 +1,6 @@
 ::-webkit-scrollbar {
   width: 10px;
+  height: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -8,18 +9,19 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(98, 98, 98);
+  background: rgb(98, 98, 98);
   border-radius: 20rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(126, 126, 126, 1);
+  background: rgb(126, 126, 126, 1);
 }
 
 .App {
   text-align: center;
   background-color: rgb(13, 13, 13);
-  overflow-x: hidden;
+  overflow: hidden;
+  width: 100% ;
 }
 
 .App-logo {
