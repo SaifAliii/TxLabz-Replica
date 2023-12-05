@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import "./App.css";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Services from "./Components/Services/Services";
 
 function App() {
   useEffect(() => {
@@ -62,6 +63,7 @@ function App() {
       <Navbar />
       <Home />
       <Portfolio />
+      <Services />
     </div>
   );
 }

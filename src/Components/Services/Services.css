@@ -1,0 +1,30 @@
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+.services-heading {
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+  }
+  
+.service-explanation {
+    font-weight: 400;
+    font-size: 18px;
+    color:white;
+    /* font-family:Nexa, Arial,sans-serif; */
+
+  }
+
+.UxDesign, .webDev, .mobileApp, .customSoft {
+  max-width: 100%; 
+  height: auto;    
+  max-height: 125px; 
+ 
+}
+
