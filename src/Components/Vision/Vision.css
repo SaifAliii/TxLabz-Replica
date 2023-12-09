@@ -1,11 +1,16 @@
 
-.team img, .project img{
+.team-img{
 
     width: 615px;
     height: 400px;
     padding: 40px;
 }
 
+img.project-img{
+    width: 615px;
+    height: 400px;
+    padding: 40px;
+}
 .team, .project{
 
     border: 1px solid white;
@@ -16,8 +21,7 @@
 .team h1, .project h1 {
 
     color: white;
-    /* font-weight: bold; */
-    /* font-size: 4cap; */
+    
 }
 
 .team p, .project p{
