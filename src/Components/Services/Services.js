@@ -4,7 +4,7 @@ import UxDesign from "../../UxDesign.png"
 import mobileApp from "../../mobileApp.png";
 import webDevelopment from "../../webDevelopment.png";
 import customSoftware from "../../customSoftware.png";
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Services() {
 

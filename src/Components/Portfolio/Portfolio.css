@@ -81,9 +81,12 @@ a {
   padding-top: 80px;
   display: flex;
   width: 115%;
-  justify-content: space-between;
   margin-left: -80px;
   overflow: hidden;
+}
+
+.portfolio-projects-sub {
+  margin-right: 80px;
 }
 
 .portfolio-view-project {

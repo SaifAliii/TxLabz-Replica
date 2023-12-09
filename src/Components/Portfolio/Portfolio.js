@@ -62,7 +62,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
+              <div className="portfolio-projects last-item">
                 <a href="#">
                   <img
                     className="portfolio-image"
