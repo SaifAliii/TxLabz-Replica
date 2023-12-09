@@ -1,3 +1,22 @@
+.heading-1,.heading-2, .heading-3, .heading-4{
+  
+  color: white;
+
+}
+
+
+.div-explanation{
+  color:grey;
+
+}
+
+.numb{
+
+  color:#32BAED;
+  text-align: left;
+  margin-left: 24px;
+
+}
 
 .services-content {
     display: flex;
@@ -11,13 +30,13 @@
     color: white;
     font-size: 42px;
     font-weight: 400;
+
   }
   
 .service-explanation {
     font-weight: 400;
     font-size: 18px;
     color:white;
-    /* font-family:Nexa, Arial,sans-serif; */
 
   }
 
@@ -25,6 +44,12 @@
   max-width: 100%; 
   height: auto;    
   max-height: 125px; 
+
  
 }
+.Ux, .web, .mobile, .custom{
 
+  border: 1px solid gray;
+  justify-content: center;
+  
+}
