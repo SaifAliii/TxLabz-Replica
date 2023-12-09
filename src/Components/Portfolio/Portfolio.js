@@ -9,7 +9,24 @@ function Portfolio() {
           <p>Check out our projects, each of them equally aced.</p>
         </div>
         <div className="portfolio-projects-main">
-          <div className="portfolio-projects-row1">
+          <div className="portfolio-projects-row-odd">
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project 1">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
             <div className="portfolio-projects-sub">
               <div className="portfolio-projects">
                 <a href="#">
@@ -21,6 +38,129 @@ function Portfolio() {
                 </a>
               </div>
               <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects last-item">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="portfolio-projects-row-even">
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project 1">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects last-item">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project">
+                <a href="#">
+                  View Project{" "}
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="portfolio-projects-row-odd">
+            <div className="portfolio-projects-sub">
+              <div className="portfolio-projects">
+                <a href="#">
+                  <img
+                    className="portfolio-image"
+                    src={portfolioSample}
+                    alt="portfolio image"
+                  />
+                </a>
+              </div>
+              <div className="portfolio-view-project 1">
                 <a href="#">
                   View Project{" "}
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
