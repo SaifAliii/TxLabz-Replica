@@ -10,12 +10,12 @@ function Vision(){
         <div className="vision-component">
 
             <h1 className="vision-heading">What suits your vision? </h1>
-            <div class="container">
-                <div class="row vision-row" >
-                    <div class="team col-md-6 ">
+            <div className="container">
+                <div className="row vision-row" >
+                    <div className="team col-md-6 ">
 
-                        <img src= {team} alt="Build Team"/> <br />
-                        <div class="team-content">
+                        <img className="team-img" src= {team} alt="Build Team"/> <br />
+                        <div className="team-content">
                             <h1>Build Your Team</h1>
                             <p>Build a dream team to work exclusively on your project, well-aligned with your timeline and goals.</p>
                         </div>
@@ -27,10 +27,10 @@ function Vision(){
                     </div>
                    
 
-                    <div class="project col-md-6">
+                    <div className="project col-md-6">
 
-                        <img src= {project} alt="Fixed price project"/> <br />
-                        <div class="project-content">
+                        <img className="project-img"  src= {project} alt="Fixed price project"/> <br />
+                        <div className="project-content">
 
                             <h1>Fixed Price Projects</h1>
                             <p>Reduce your time-to-market with our fully-managed and cost-efficent project delivery.</p>
