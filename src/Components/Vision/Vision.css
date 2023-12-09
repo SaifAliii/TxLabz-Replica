@@ -35,13 +35,7 @@ img.project-img{
     font-size: large;
 
 }
-.vision-heading{
 
-    color: white;
-    margin-top: 14rem;
-    margin-bottom: 4rem;
-
-}
 .team-button, .project-button{
     background-color: #0054a4;
     border-radius: 0.5rem;
@@ -67,4 +61,10 @@ img.project-img{
     box-shadow: 0px 0px 120px 8px rgba(0, 212, 255, 1);
   }
 
+  .vision-heading{
 
+    color: white;
+    margin-top: 14rem;
+    margin-bottom: 4rem;
+
+}
