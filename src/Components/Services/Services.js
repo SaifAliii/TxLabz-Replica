@@ -21,36 +21,44 @@ function Services() {
             <div className="container mt-4">
               <div className="row">
                 <div className="col-md-3">
-                  <div className="border p-3 ">
-                    <img className="UxDesign" src= {UxDesign} alt="Ux-UI design"/> 
-                    <h3>Div 1</h3>
-                    <p>Content for div 1</p>
+                  <div className="Ux">
+                    <img className="UxDesign" src= {UxDesign} alt="Ux-UI design"/> <br />
+                    <h5 className="numb"  >01 </h5>
+                    <h4 className="heading-1">UX/UI Design & Experience</h4>
+                    <p className="div-explanation"> We  create meaningful experiences  and turn them  into tangible  business  results.</p>
                   </div>
                 </div>
 
               <div className="col-md-3">
-                <div className="border p-3">
+                <div className="web">
                   <img className="webDev" src= {webDevelopment} alt="web developemnt"/> 
-
-                  <h3>Div 2</h3>
-                  <p>Content for Div 2</p>
+                  <h5  className="numb" >02</h5>
+                  <h4 className="heading-2">Web App Developemnt</h4>
+                  <p className="div-explanation">We build modern, secure and scalable web applications to simplify business processes for you.</p>
+                  
                 </div>
               </div>
 
               <div className="col-md-3">
-                <div className="border p-3 ">
+                <div className="mobile">
                   <img className="mobileApp" src={mobileApp} alt="mobile app" />
-
-                  <h3>Div 3</h3>
-                  <p>Content for Div 3</p>
+                  <h5 className="numb" >03</h5>
+                  <h4 className="heading-3">Mobile App Developemnt</h4>
+                  <p className="div-explanation">Our fast, responsive and highly scalable mobile app development will help you get ahead in no time!</p>
+                  
+                  
                 </div>
               </div>
 
               <div className="col-md-3">
-                <div className="border p-3">
+                <div className="custom">
                   <img className="customSoft" src={customSoftware} alt="custom software"></img>
-                  <h3>Div 4</h3>
-                  <p>Content for Div 4</p>
+                  <h5 className="numb">04</h5>
+
+                  <h4 className="heading-4">Custom Software & SaaS</h4>
+                  <p className="div-explanation">Our fast, responsive and highly scalable mobile app development will help you get ahead in no time!</p>
+                  
+                  
                 </div>
               </div>
             </div>
