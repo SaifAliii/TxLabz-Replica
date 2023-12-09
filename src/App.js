@@ -8,6 +8,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Services from "./Components/Services/Services";
 import Video from "./Components/Video/Video";
 import Vision from "./Components/Vision/Vision";
+import Reviews from "./Components/Reviews/Reviews";
 
 function App() {
   useEffect(() => {
@@ -68,6 +69,7 @@ function App() {
       <Services />
       <Video />
       <Vision />
+      <Reviews />
     </div>
   );
 }
