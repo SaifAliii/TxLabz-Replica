@@ -42,7 +42,7 @@ function App() {
     const scenePortfolio = new ScrollMagic.Scene({
       triggerElement: ".portfolio-main",
       triggerHook: 0.7, // Trigger when 50% of the element is in the viewport
-      reverse: true, // Don't reverse the animation when scrolling up
+      reverse: true,
     })
       .on("leave", () => {
         gsap.to(".portfolio-main", {
