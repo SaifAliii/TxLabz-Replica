@@ -1,0 +1,66 @@
+
+.team img, .project img{
+
+    width: 615px;
+    height: 400px;
+    padding: 40px;
+}
+
+.team, .project{
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.team h1, .project h1 {
+
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: 4cap; */
+}
+
+.team p, .project p{
+    color:white;
+}
+
+.team-content, .project-content {
+
+    padding-left: 37px;
+    text-align: left;
+    font-size: large;
+
+}
+.vision-heading{
+
+    color: white;
+    margin-top: 14rem;
+    margin-bottom: 4rem;
+
+}
+.team-button, .project-button{
+    background-color: #0054a4;
+    border-radius: 0.5rem;
+    border: 2px solid #2171bd;
+    width: 560px;
+    height: 64px;
+    font-size: 16px;
+    color: white;
+    transition: box-shadow 152ms ease-out;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+
+  }
+  
+  .team-button:hover, .project-button:hover {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      circle,
+      rgba(0, 212, 255, 1) 0%,
+      rgba(167, 253, 255, 1) 100%
+    );
+    box-shadow: 0px 0px 120px 8px rgba(0, 212, 255, 1);
+  }
+
+
