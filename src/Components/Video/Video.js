@@ -5,7 +5,7 @@ function Video(){
 
     return(
 
-       <div className="video-head">
+       <div className="video-component">
          
           <h1 className="heading-video">In our client's words</h1> <br /> <br />
 
