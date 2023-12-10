@@ -8,65 +8,62 @@ import client6 from "../../client6.jpg";
 import client7 from "../../client7.jpg";
 import client8 from "../../client8.jpg";
 
-function Reviews(){
+function ClientReview(props) {
+  alert("Hi");
+  return (
+    <div className="review-div col-md-6 ">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
 
+      <p className="client-details">{props.detail}</p>
 
-    return(
+      <img className="client-review" src={client1} alt="client-image" />
+      <p className="client-name">{props.name}</p>
+      <p className="client-info">{props.info}</p>
+    </div>
+  );
+}
 
-        <div className="reviews-components">
-            <h1 className="reviews-heading">Don't take our words for it</h1>
+function Reviews() {
+  return (
+    <div className="reviews-components">
+      <h1 className="reviews-heading">Don't take our words for it</h1>
 
-            <div className="container r">
-                <div className="row " >
-                   
-                     {/* div1 */}
-                    <div className="div-1 col-md-6 ">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        
-                        <p className="reviews-para1" >TxLabz provides great design and has a great sense of user 
-                        experience and aesthetics. They deliver on time and is an overall great communicator. I highly recommend working with them.
-                        </p>
+      <div className="container r">
+        <div className="row ">
+          <ClientReview
+            name="Mara Nikolic"
+            info="Founder, Mara99"
+            detail="TxLabz provides great design and has a great sense of user experience and
+      aesthetics. They deliver on time and is an overall great communicator. I
+      highly recommend working with them."
+          />
+          {/* div2 */}
+          <div className="review-div col-md-6 ">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
 
-                        <img className="client1" src={client1} alt="client1" />
-                        <p className="client1-name">Mara Nikolic</p>
-                        <p className="client1-info">Founder, Mara99</p>
+            <p className="client-details">
+              Amazing developers with an eye for aesthetics. We had pretty
+              vigorous requests and they hit every single one. They were patient
+              and highly skilled and ambitious.
+            </p>
 
-                        
-                    </div>
-
-                    {/* div2 */}
-                    <div className="div-2 col-md-6 ">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        
-                        <p className="reviews-para2" >
-                            Amazing developers with an eye for aesthetics. 
-                            We had pretty vigorous requests and they hit every single one. They were patient and highly skilled and ambitious.
-                        </p>
-
-                        <img className="client2" src={client2} alt="client2" />< br />
-                        <p className="client2-name">John D Saunders</p>
-                        <p className="client2-info">Co-founder,  5fourdigital</p>
-
-
-
-                    </div>
-                   
-
-                </div>
-            </div>
-                    
+            <img className="client2" src={client2} alt="client2" />
+            <br />
+            <p className="client-name">John D Saunders</p>
+            <p className="client-info">Co-founder, 5fourdigital</p>
+          </div>
         </div>
-
-
-    );
+      </div>
+    </div>
+  );
 }
 
 export default Reviews;
