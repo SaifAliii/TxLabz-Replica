@@ -21,16 +21,19 @@
 
 .client-review-img {
   border-radius: 50%;
-  width: 64px;
+  width: 128px;
+  margin-bottom: 10px;
 }
 
 .review-div {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .review-div-sub {
   display: flex;
+  flex-direction: column;
   height: 100%;
   align-items: center;
   justify-content: space-evenly;
@@ -41,7 +44,7 @@
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  text-align: left;
+  margin-bottom: 20px;
 }
 
 .reviews-heading {

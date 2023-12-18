@@ -11,16 +11,7 @@ import client8 from "../../client8.jpg";
 
 function ClientReview(props) {
   return (
-    <div className="review-div col-md-6 ">
-      <div className="review-stars">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-
-      <p className="client-details">{props.detail}</p>
+    <div className="review-div col-md-12">
       <div className="review-div-sub">
         <img className="client-review-img" src={props.img} alt="client-image" />
         <div className="review-div-sub-1">
@@ -28,6 +19,15 @@ function ClientReview(props) {
           <p className="client-info">{props.info}</p>
         </div>
       </div>
+      <div className="review-stars">
+        <span class="fa fa-star checked fa-lg"></span>
+        <span class="fa fa-star checked fa-lg"></span>
+        <span class="fa fa-star checked fa-lg"></span>
+        <span class="fa fa-star checked fa-lg"></span>
+        <span class="fa fa-star checked fa-lg"></span>
+      </div>
+
+      <p className="client-details">{props.detail}</p>
     </div>
   );
 }
@@ -37,30 +37,61 @@ function Reviews() {
     <div className="reviews-components">
       <h1 className="reviews-heading">Don't take our words for it</h1>
 
-      <div className="container r">
-        {Array.isArray(reviewArray) &&
-          reviewArray.map(
-            (review, index) =>
-              index + 1 < reviewArray.length &&
-              index % 2 === 0 && (
-                <div className="row" key={`group-${Math.floor(index / 2)}`}>
-                  <ClientReview
-                    name={review.name}
-                    info={review.info}
-                    img={review.img}
-                    detail={review.detail}
-                  />
-                  {index + 1 < reviewArray.length && (
-                    <ClientReview
-                      name={reviewArray[index + 1].name}
-                      info={reviewArray[index + 1].info}
-                      img={reviewArray[index + 1].img}
-                      detail={reviewArray[index].detail}
-                    />
-                  )}
-                </div>
-              )
-          )}
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div className="container r">
+              <ClientReview
+                name="Mara Nikolic"
+                info="Founder, Mara99"
+                img={client1}
+                detail="TxLabz provides great design and has a great sense of user experience and aesthetics. They deliver on time and is an overall great communicator. I highly recommend working with them."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="container r">
+              <ClientReview
+                name="Mark Zuckerberg"
+                info="Founder, Facebook"
+                img={client2}
+                detail="TxLabz provides great design and has a great sense of user experience and aesthetics. They deliver on time and is an overall great communicator. I highly recommend working with them."
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="container r">
+              <ClientReview
+                name="Elon Musk"
+                info="CEO, Tesla"
+                img={client4}
+                detail="TxLabz provides great design and has a great sense of user experience and aesthetics. They deliver on time and is an overall great communicator. I highly recommend working with them."
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
