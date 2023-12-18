@@ -1,5 +1,22 @@
 import "./Portfolio.css";
-import portfolioSample from "../../samplePortfolio.jpeg";
+import Video from "../Video/Video";
+import sample1 from "../../sample1.png";
+import sample2 from "../../sample2.png";
+import sample3 from "../../sample3.png";
+
+function PortfolioSample(props) {
+  return (
+    <div className="portfolio-projects-sample">
+      <a href="#">
+        <img
+          className="portfolio-projects-sample-image"
+          src={props.img}
+          alt="project sample"
+        />
+      </a>
+    </div>
+  );
+}
 function Portfolio() {
   return (
     <div className="portfolio">
@@ -9,215 +26,13 @@ function Portfolio() {
           <p>Check out our projects, each of them equally aced.</p>
         </div>
         <div className="portfolio-projects-main">
-          <div className="portfolio-projects-row-odd">
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project 1">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects last-item">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
+          <div className="portfolio-projects-sub">
+            <PortfolioSample img={sample1} />
+            <PortfolioSample img={sample2} />
+            <PortfolioSample img={sample3} />
           </div>
-          <div className="portfolio-projects-row-even">
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project 1">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects last-item">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="portfolio-projects-row-odd">
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project 1">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="portfolio-projects-sub">
-              <div className="portfolio-projects last-item">
-                <a href="#">
-                  <img
-                    className="portfolio-image"
-                    src={portfolioSample}
-                    alt="portfolio image"
-                  />
-                </a>
-              </div>
-              <div className="portfolio-view-project">
-                <a href="#">
-                  View Project{" "}
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
+          <div className="portfolio-projects-sub">
+            <Video width="870px" height="461px" />
           </div>
         </div>
       </div>
