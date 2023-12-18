@@ -1,13 +1,7 @@
 import "./Reviews.css";
-import reviewArray from "./data.js";
 import client1 from "../../client1.jpg";
 import client2 from "../../client2.jpg";
-import client3 from "../../client3.jpg";
 import client4 from "../../client4.jpg";
-import client5 from "../../client5.jpg";
-import client6 from "../../client6.jpg";
-import client7 from "../../client7.jpg";
-import client8 from "../../client8.jpg";
 
 function ClientReview(props) {
   return (

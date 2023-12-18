@@ -1,0 +1,56 @@
+.footer-copyright {
+  color: white;
+  text-align: left;
+}
+
+.footer-icons {
+  color: rgb(167, 158, 158);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-icons a {
+  color: rgb(118, 111, 111);
+}
+
+.footer-icons-main {
+  padding: 0 10px 0;
+}
+
+.footer-icons-sub:hover {
+  color: white;
+}
+
+.footer-horizontal-line {
+  color: azure;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links-main {
+  padding: 10px;
+}
+
+.footer-logo {
+  text-align: left;
+}
+
+.footer-logo-main {
+  width: 200px;
+}
+
+.footer-main {
+  margin-top: 50px;
+  height: 50vh !important;
+  background-color: rgb(21, 21, 21);
+}
+
+.footer-sub {
+  padding: 100px 0 70px;
+}
+
+h6 {
+  color: white;
+}

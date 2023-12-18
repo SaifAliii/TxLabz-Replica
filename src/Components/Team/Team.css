@@ -1,0 +1,33 @@
+.team-description {
+  color: white;
+  width: 65%;
+  align-self: center;
+  margin-bottom: 100px;
+}
+.team-description h1 {
+  line-height: 60px;
+}
+
+.team-main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-member {
+  display: flex;
+  width: 80%;
+  align-self: center;
+}
+
+.team-member-sub {
+  width: 300px !important;
+  overflow: hidden;
+}
+
+.team-member-sub img {
+  max-width: 280px;
+  max-height: 100%;
+  object-fit: cover;
+  margin: auto;
+}

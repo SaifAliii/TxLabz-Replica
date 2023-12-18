@@ -9,6 +9,8 @@ import Services from "./Components/Services/Services";
 import Video from "./Components/Video/Video";
 import Vision from "./Components/Vision/Vision";
 import Reviews from "./Components/Reviews/Reviews";
+import Team from "./Components/Team/Team";
+import Footer from "./Components/Footer/Footer";
 function App() {
   useEffect(() => {
     const controller = new ScrollMagic.Controller();
@@ -68,6 +70,8 @@ function App() {
       <Services />
       <Vision />
       <Reviews />
+      <Team />
+      <Footer />
     </div>
   );
 }
