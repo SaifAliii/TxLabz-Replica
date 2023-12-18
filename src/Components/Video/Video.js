@@ -7,7 +7,7 @@ function Video(props) {
         className="video"
         width={props.width}
         height={props.height}
-        src="https://www.youtube.com/embed/zk_R_WUeoNQ"
+        src={props.video}
         frameborder="0"
         allowfullscreen
       ></iframe>

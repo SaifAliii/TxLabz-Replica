@@ -71,6 +71,11 @@ function App() {
       <Vision />
       <Reviews />
       <Team />
+      <Video
+        width="1000px"
+        height="600px"
+        video="https://www.youtube.com/embed/JfKZof0Szt4"
+      />
       <Footer />
     </div>
   );

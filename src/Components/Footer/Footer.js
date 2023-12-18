@@ -45,7 +45,9 @@ function Footer() {
           </div>
         </div>
         <div className="row footer-sub1">
-          <div className="col-md-6 footer-copyright">©2023</div>
+          <div className="col-md-6 footer-copyright">
+            ©2023. All rights reserved
+          </div>
           <div className="col-md-6 footer-icons">
             <div className="footer-icons-main">
               <a href="#">

@@ -32,7 +32,11 @@ function Portfolio() {
             <PortfolioSample img={sample3} />
           </div>
           <div className="portfolio-projects-sub">
-            <Video width="870px" height="461px" />
+            <Video
+              width="870px"
+              height="461px"
+              video="https://www.youtube.com/embed/zk_R_WUeoNQ"
+            />
           </div>
         </div>
       </div>

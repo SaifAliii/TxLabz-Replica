@@ -11,8 +11,8 @@
 }
 .team,
 .vision-project {
+  border-top: 5px solid white !important;
   border: 1px solid white;
-  border-radius: 10px;
   max-width: 650px;
 }
 
